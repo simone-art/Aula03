@@ -14,6 +14,7 @@ public class OperadorE {
 		senha = leitor.next();	
 		
 		//Aqui é preciso criar um if que verifique as duas condições para o login ser bem sucedido
+		//O equals é usado para comparar texto. Se usar aspas en números, o equals interpreta que é texto
 		if(usuario.equals("administrador") && senha.equals("123")) {
 			System.out.println("Login autorizado");
 		}else {
