@@ -23,12 +23,7 @@ public class Exercicio03 {
 		
 		System.out.println("O valor do número 1 é: " + numero1);
 		System.out.println("O valor do número 2 é: " + numero2);
-		
-		
-		
-		
-		
-		
+		leitor.close();	
 	}
 
 }
