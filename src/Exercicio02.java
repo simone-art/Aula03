@@ -21,7 +21,7 @@ public class Exercicio02 {
 		//Formatando as horas
 		
 		System.out.println("o filme tem " + formatador.format(horas) + "horas de duração ");
-		
+		leitor.close();	
 	}
 
 }
